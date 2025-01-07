@@ -51,7 +51,7 @@ if letterhead_file and report_file:
         st.download_button(
             label="Download Final PDF",
             data=output_pdf_stream,
-            file_name="final_report_with_letterhead.pdf",
+            file_name="Qurocare_Lab_Report.pdf",
             mime="application/pdf"
         )
 
